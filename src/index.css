@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+.logo{
+  display: flex;
+  font-size: 40px;
+  font-weight: 800;
+  color: #b936ee;
+  letter-spacing: 3px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.punto{
+  font-size: 90px;
+  color: #ff56f6;
+}
+
 .btn {
   background: linear-gradient(
     92.23deg,
