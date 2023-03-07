@@ -52,8 +52,8 @@ const Banner = () => {
             </div>
             <div className='flex max-w-max gap-x-6 items-center mb-12
               mx-auto lg:mx-0'>
-              <button className='btn btn-lg'>Contactame</button>
-              <a href='#' className='text-gradient btn-link'>
+              <button className='btn btn-lg'><a href='#contact'>Contactame</a></button>
+              <a href='https://github.com/Juandavid08' target={'_blank'} className='text-gradient btn-link'>
                 Mi repositorio
               </a>
             </div>

@@ -3,6 +3,11 @@ import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
+import {FaPython, FaReact, FaNode, FaHtml5, FaPhp, FaBootstrap } from 'react-icons/fa'
+import {DiJavascript1, DiCss3, DiDjango} from 'react-icons/di'
+import {SiMysql, SiTailwindcss} from 'react-icons/si'
+import {BsGit} from 'react-icons/bs'
+import {TbBrandCSharp} from 'react-icons/tb'
 
 const About = () => {
 
@@ -17,7 +22,7 @@ const About = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{once:false, amount: 0.3}}
-          className='flex-1 bg-about bg-contain bg-no-repeat h-[480px] mix-blend-soft-light bg-top'>
+          className='flex-1 bg-about bg-contain bg-no-repeat h-[580px] mix-blend-soft-light bg-top'>
 
           </motion.div>
           
@@ -30,7 +35,9 @@ const About = () => {
             <h2 className='h2 text-accent'>About Juan David</h2>
             <h3 className='h3 mb-4'>Soy un Desarrollador Full Stack con 1 año de experiencia</h3>
             <p className='mb-6'>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+              Ingeniero de software de la Universidad Cooperativa de Colombia. Me considero una persona organizada 
+              y proactiva, me gusta los desafíos y participar en nuevos proyectos, además de aportar todos los 
+              conocimientos que he adquirido en mi formación académica.
             </p>
             <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
               <div>
@@ -55,6 +62,56 @@ const About = () => {
                   Proyectos <br /> Terminados
                 </div>
               </div>
+              
+              <div>
+                  <div className='flex text-[30px] gap-x-6 max-w-max mx-auto
+                  lg:mx-0'>
+                      <a href='https://github.com/Juandavid08' target={'_blank'}>
+                        <FaPython />
+                      </a>
+                      <a href='https://www.facebook.com/juan.renteriavalencia' target={'_blank'}>
+                        <FaReact />
+                      </a>
+                      <a href='https://www.instagram.com/juan_renteriav/' target={'_blank'}>
+                        <FaNode />
+                      </a>
+                      <a href="https://wa.me/573116874555?text=Hola%20Juan,%20me%20interesa%20hablar%20contigo%20de%20trabajo" target={'_blank'}>
+                        <DiJavascript1 />
+                      </a>
+                      <a href="https://wa.me/573116874555?text=Hola%20Juan,%20me%20interesa%20hablar%20contigo%20de%20trabajo" target={'_blank'}>
+                        <FaHtml5 />
+                      </a>
+                      <a href="https://wa.me/573116874555?text=Hola%20Juan,%20me%20interesa%20hablar%20contigo%20de%20trabajo" target={'_blank'}>
+                        <DiCss3 />
+                      </a>
+                      <a href="https://wa.me/573116874555?text=Hola%20Juan,%20me%20interesa%20hablar%20contigo%20de%20trabajo" target={'_blank'}>
+                        <TbBrandCSharp />
+                      </a>
+                </div>
+
+                <div className='flex text-[30px] gap-x-6 mt-5 max-w-max mx-auto
+                  lg:mx-0'>
+                      <a href="https://wa.me/573116874555?text=Hola%20Juan,%20me%20interesa%20hablar%20contigo%20de%20trabajo" target={'_blank'}>
+                        <FaPhp />
+                      </a>
+                      <a href="https://wa.me/573116874555?text=Hola%20Juan,%20me%20interesa%20hablar%20contigo%20de%20trabajo" target={'_blank'}>
+                        <DiDjango />
+                      </a>
+                      <a href="https://wa.me/573116874555?text=Hola%20Juan,%20me%20interesa%20hablar%20contigo%20de%20trabajo" target={'_blank'}>
+                        <SiMysql />
+                      </a>
+                      <a href="https://wa.me/573116874555?text=Hola%20Juan,%20me%20interesa%20hablar%20contigo%20de%20trabajo" target={'_blank'}>
+                        <SiTailwindcss />
+                      </a>
+                      <a href="https://wa.me/573116874555?text=Hola%20Juan,%20me%20interesa%20hablar%20contigo%20de%20trabajo" target={'_blank'}>
+                        <FaBootstrap />
+                      </a>
+                      <a href="https://wa.me/573116874555?text=Hola%20Juan,%20me%20interesa%20hablar%20contigo%20de%20trabajo" target={'_blank'}>
+                        <BsGit />
+                      </a>
+                </div>
+
+            </div>
 
             </div>
           </motion.div>

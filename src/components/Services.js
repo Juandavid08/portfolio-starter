@@ -8,23 +8,23 @@ import { fadeIn } from '../variants'
 const services = [
   {
     name: 'Desarrodor Full Stack',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-    link: 'Learn more'
+    description: "Especialista en el desarrollo de sitios web que integra el diseño de la experiencia del cliente en una página (front end), así como la programación y mantenimiento de la arquitectura interna del sitio (back end)",
+    link: 'https://ed.team/blog/que-es-un-programador-full-stack-existen-o-son-un-mito'
   },
   {
     name: 'Desarrollador FrontEnd',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-    link: 'Learn more'
+    description: "Desarrollador de toda la parte visual del sistema, se maneja herramientas como JavaScript, HTML, CSS. etc. ",
+    link: 'https://ed.team/blog/que-es-backend-y-frontend-guia-completa'
   },
   {
     name: 'Desarrollador BackEnd',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-    link: 'Learn more'
+    description: "Persona encargada de la implementación de un sitio web o aplicación web en todos sus componentes, y se ocupa de diseñar la lógica y las soluciones requeridas en un sitio o aplicación web sean ejecutadas correctamente.",
+    link: 'https://ed.team/blog/que-es-backend-y-frontend-guia-completa'
   },
   {
     name: 'UI/UX Designer',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-    link: 'Learn more'
+    description: "Gestionador de la experiencia de usuario de un producto digital. Su objetivo es que la interacción del usuario con el producto sea sencilla e intuitiva, consiguiendo así una buena relación con la marca",
+    link: 'https://www.crehana.com/blog/transformacion-digital/que-hace-un-disenador-ux/'
   },
 ]
 
@@ -66,10 +66,10 @@ const Services = () => {
                       <p className='font-secondary leading-tight'>{description}</p>
                     </div>
                     <div className='flex flex-col flex-1 items-end'>
-                      <a href="#" className='btn w-9 h-9 mb-[42px] flex justify-center items-center'>
+                      <a href={link} target="_blank" className='btn w-9 h-9 mb-[42px] flex justify-center items-center'>
                         <BsArrowUpRight />
                       </a>
-                      <a href='#' className='text-gradient text-sm'>{link}</a>
+                      <a href={link} target="_blank" className='text-gradient text-sm'>Ver mas</a>
                     </div>
                   </div>
                 );
