@@ -59,16 +59,16 @@ const Banner = () => {
             </div>
             <div className='flex text-[20px] gap-x-6 max-w-max mx-auto
               lg:mx-0'>
-              <a href='#'>
+              <a href='https://github.com/Juandavid08' target={'_blank'}>
                 <FaGithub />
               </a>
-              <a href='#'>
+              <a href='https://www.facebook.com/juan.renteriavalencia' target={'_blank'}>
                 <FaFacebookF />
               </a>
-              <a href='#'>
+              <a href='https://www.instagram.com/juan_renteriav/' target={'_blank'}>
                 <FaInstagram />
               </a>
-              <a href='#'>
+              <a href="https://wa.me/573116874555?text=Hola%20Juan,%20me%20interesa%20hablar%20contigo%20de%20trabajo" target={'_blank'}>
                 <FaWhatsapp />
               </a>
             </div>
