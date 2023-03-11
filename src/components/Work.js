@@ -19,7 +19,7 @@ const Work = () => {
             viewport={{ once: false, amount: 0.6 }}
           className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'>
             <div>
-              <h2 className='h2 leading-tight text-accent'>Mys ultimos <br /> proyectos</h2>
+              <h2 className='h2 leading-tight text-accent'>Mis ultimos <br /> proyectos</h2>
               <p className='max-w-sm mb-12'>En esta seccion se puede ver los diferentes proyectos que he realizado para algunas empresas (Paginas web, aplicaciones web, etc.)</p>
               <button className='btn btn-sm'>Ver todos</button>
             </div>
