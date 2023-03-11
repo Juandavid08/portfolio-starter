@@ -47,7 +47,7 @@ const Banner = () => {
 
               </div>
               <p className='mb-8 max-w-lg mx-auto lg:mx-0'>
-                lorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem
+              Ingeniero de software egresado de la Universidad Cooperativa de Colombia. Me considero una persona organizada y proactiva, me gusta los desafíos y participar en proyectos de alto compromiso, amante a los videojuegos y al futbol.
               </p>
             </div>
             <div className='flex max-w-max gap-x-6 items-center mb-12
