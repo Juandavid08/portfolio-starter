@@ -75,38 +75,38 @@ const About = () => {
                       <a href='https://www.instagram.com/juan_renteriav/' target={'_blank'}>
                         <FaNode />
                       </a>
-                      <a href="https://wa.me/573116874555?text=Hola%20Juan,%20me%20interesa%20hablar%20contigo%20de%20trabajo" target={'_blank'}>
+                      <a href="" target={'_blank'}>
                         <DiJavascript1 />
                       </a>
-                      <a href="https://wa.me/573116874555?text=Hola%20Juan,%20me%20interesa%20hablar%20contigo%20de%20trabajo" target={'_blank'}>
+                      <a href="" target={'_blank'}>
                         <FaHtml5 />
                       </a>
-                      <a href="https://wa.me/573116874555?text=Hola%20Juan,%20me%20interesa%20hablar%20contigo%20de%20trabajo" target={'_blank'}>
+                      <a href="" target={'_blank'}>
                         <DiCss3 />
                       </a>
-                      <a href="https://wa.me/573116874555?text=Hola%20Juan,%20me%20interesa%20hablar%20contigo%20de%20trabajo" target={'_blank'}>
+                      <a href="" target={'_blank'}>
                         <TbBrandCSharp />
                       </a>
                 </div>
 
                 <div className='flex text-[30px] gap-x-6 mt-5 max-w-max mx-auto
                   lg:mx-0'>
-                      <a href="https://wa.me/573116874555?text=Hola%20Juan,%20me%20interesa%20hablar%20contigo%20de%20trabajo" target={'_blank'}>
+                      <a href="" target={'_blank'}>
                         <FaPhp />
                       </a>
-                      <a href="https://wa.me/573116874555?text=Hola%20Juan,%20me%20interesa%20hablar%20contigo%20de%20trabajo" target={'_blank'}>
+                      <a href="" target={'_blank'}>
                         <DiDjango />
                       </a>
-                      <a href="https://wa.me/573116874555?text=Hola%20Juan,%20me%20interesa%20hablar%20contigo%20de%20trabajo" target={'_blank'}>
+                      <a href="" target={'_blank'}>
                         <SiMysql />
                       </a>
-                      <a href="https://wa.me/573116874555?text=Hola%20Juan,%20me%20interesa%20hablar%20contigo%20de%20trabajo" target={'_blank'}>
+                      <a href="" target={'_blank'}>
                         <SiTailwindcss />
                       </a>
-                      <a href="https://wa.me/573116874555?text=Hola%20Juan,%20me%20interesa%20hablar%20contigo%20de%20trabajo" target={'_blank'}>
+                      <a href="" target={'_blank'}>
                         <FaBootstrap />
                       </a>
-                      <a href="https://wa.me/573116874555?text=Hola%20Juan,%20me%20interesa%20hablar%20contigo%20de%20trabajo" target={'_blank'}>
+                      <a href="" target={'_blank'}>
                         <BsGit />
                       </a>
                 </div>

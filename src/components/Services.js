@@ -21,11 +21,7 @@ const services = [
     description: "Persona encargada de la implementación de un sitio web o aplicación web en todos sus componentes, y se ocupa de diseñar la lógica y las soluciones requeridas en un sitio o aplicación web sean ejecutadas correctamente.",
     link: 'https://ed.team/blog/que-es-backend-y-frontend-guia-completa'
   },
-  {
-    name: 'UI/UX Designer',
-    description: "Gestionador de la experiencia de usuario de un producto digital. Su objetivo es que la interacción del usuario con el producto sea sencilla e intuitiva, consiguiendo así una buena relación con la marca",
-    link: 'https://www.crehana.com/blog/transformacion-digital/que-hace-un-disenador-ux/'
-  },
+ 
 ]
 
 const Services = () => {
