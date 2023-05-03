@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 import {FaPython, FaReact, FaNode, FaHtml5, FaPhp, FaBootstrap } from 'react-icons/fa'
 import {DiJavascript1, DiCss3, DiDjango} from 'react-icons/di'
-import {SiMysql, SiTailwindcss} from 'react-icons/si'
+import {SiMysql, SiTailwindcss, SiRubyonrails} from 'react-icons/si'
 import {BsGit} from 'react-icons/bs'
 import {TbBrandCSharp} from 'react-icons/tb'
 
@@ -32,7 +32,7 @@ const About = () => {
           whileInView={"show"}
           viewport={{once:false, amount: 0.3}}
           className='flex-1'>
-            <h2 className='h2 text-accent'>About Juan David</h2>
+            <h2 className='h2 text-accent'>Sobre Juan David</h2>
             <h3 className='h3 mb-4'>Soy un Desarrollador Full Stack con 1 año de experiencia</h3>
             <p className='mb-6'>
               Ingeniero de software de la Universidad Cooperativa de Colombia. Me considero una persona organizada 
@@ -91,6 +91,9 @@ const About = () => {
 
                 <div className='flex text-[30px] gap-x-6 mt-5 max-w-max mx-auto
                   lg:mx-0'>
+                      <a href="" target={'_blank'}>
+                        <SiRubyonrails />
+                      </a>
                       <a href="" target={'_blank'}>
                         <FaPhp />
                       </a>
