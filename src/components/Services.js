@@ -21,6 +21,11 @@ const services = [
     description: "Persona encargada de la implementación de un sitio web o aplicación web en todos sus componentes, y se ocupa de diseñar la lógica y las soluciones requeridas en un sitio o aplicación web sean ejecutadas correctamente.",
     link: 'https://ed.team/blog/que-es-backend-y-frontend-guia-completa'
   },
+  {
+    name: 'Automatizador de Procesos',
+    description: "Desarrollador especialista en crear soluciones que automatizan tareas y flujos de trabajo dentro de sistemas informáticos, así ahorrando tiempo y recursos destinados a estas.",
+    link: 'https://www.ibm.com/mx-es/topics/automation'
+  },
  
 ]
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../assets/fotosvg.svg';
+import Image from '../assets/services.png';
 import { FaGithub, FaFacebookF, FaWhatsapp, FaInstagram } from 'react-icons/fa'
 import { TypeAnimation } from 'react-type-animation'
 import { motion } from 'framer-motion'
@@ -47,7 +47,7 @@ const Banner = () => {
 
               </div>
               <p className='mb-8 max-w-lg mx-auto lg:mx-0'>
-              Ingeniero de software egresado de la Universidad Cooperativa de Colombia. Me considero una persona organizada y proactiva, me gusta los desafíos y participar en proyectos de alto compromiso, amante a los videojuegos y al futbol.
+                Ingeniero de software egresado de la Universidad Cooperativa de Colombia. Me considero una persona organizada y proactiva, me gusta los desafíos y participar en proyectos de alto compromiso, amante a los videojuegos y al futbol.
               </p>
             </div>
             <div className='flex max-w-max gap-x-6 items-center mb-12
@@ -80,8 +80,9 @@ const Banner = () => {
             whileInView={'show'}
             viewport={{ once: false, amount: 0.6 }}
             className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]'>
-            <img src={Image} alt='' />
+            <img src={Image} alt='' className='opacity-70' />
           </motion.div>
+
         </div>
       </div>
     </section>

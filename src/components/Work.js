@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants'
-//importacion de las imagenes
 import Img1 from '../assets/LogoRedPositivos.png'
 import Img2 from '../assets/Hanabi.png'
 import Img3 from '../assets/LogoInicial.png'
