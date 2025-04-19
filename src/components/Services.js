@@ -7,26 +7,31 @@ import { fadeIn } from '../variants'
 
 const services = [
   {
-    name: 'Desarrodor Full Stack',
-    description: "Especialista en el desarrollo de sitios web que integra el diseño de la experiencia del cliente en una página (front end), así como la programación y mantenimiento de la arquitectura interna del sitio (back end)",
+    name: 'Desarrollador Full Stack (Backend y Frontend)',
+    description: "Especialista en desarrollo web, integrando diseño de experiencia de usuario (frontend) con programación y mantenimiento del backend.",
     link: 'https://ed.team/blog/que-es-un-programador-full-stack-existen-o-son-un-mito'
   },
   {
-    name: 'Desarrollador FrontEnd',
-    description: "Desarrollador de toda la parte visual del sistema, se maneja herramientas como JavaScript, HTML, CSS. etc. ",
-    link: 'https://ed.team/blog/que-es-backend-y-frontend-guia-completa'
+    name: 'Analista de Datos Avanzado',
+    description: "Persona encargada de la recopilación, análisis y presentación de datos para ayudar a las empresas a tomar decisiones informadas y estratégicas.",
+    link: 'https://www.bbva.com/es/innovacion/analista-de-datos-destrezas-y-funciones-de-una-profesion-con-futuro/'
   },
   {
-    name: 'Desarrollador BackEnd',
-    description: "Persona encargada de la implementación de un sitio web o aplicación web en todos sus componentes, y se ocupa de diseñar la lógica y las soluciones requeridas en un sitio o aplicación web sean ejecutadas correctamente.",
-    link: 'https://ed.team/blog/que-es-backend-y-frontend-guia-completa'
+    name: 'Ingeniero de Machine Learning',
+    description: "Desarrollador especializado en la creación de algoritmos y modelos que permiten a las máquinas aprender de los datos y realizar predicciones o tomar decisiones sin ser programadas explícitamente.",
+    link: 'https://www.bbva.com/es/innovacion/que-formacion-necesita-un-ingeniero-experto-en-machine-learning/'
   },
   {
     name: 'Automatizador de Procesos',
     description: "Desarrollador especialista en crear soluciones que automatizan tareas y flujos de trabajo dentro de sistemas informáticos, así ahorrando tiempo y recursos destinados a estas.",
     link: 'https://www.ibm.com/mx-es/topics/automation'
   },
- 
+  {
+    name: 'Ingeniero de Inteligencia Artificial',
+    description: "Desarrollador especializado en la creación de sistemas y aplicaciones que utilizan técnicas de IA para simular procesos cognitivos humanos.",
+    link: 'https://www.palermo.edu/ingenieria/ingenieria-inteligencia-artificial/'
+  },
+
 ]
 
 const Services = () => {
@@ -39,11 +44,14 @@ const Services = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className='flex-1 lg:bg-services lg:bg-bottom bg-no-repeat
+            className='flex-1 lg:bg-bottom bg-no-repeat
                 mix-blend-lighten mb-12 lg:mb-0'>
             <h2 className='h2 text-accent mb-6'>¿Que puedo hacer?</h2>
-            <h3 className='h3 max-w-[455px] mb-16'>Soy un Desarrollador Full Stack con 1 año de experiencia</h3>
-            <button className='btn btn-sm'>Ver mi trabajo</button>
+            <h3 className='h3 max-w-[455px] mb-16'>Ingeniero de software con más de 4 año de experiencia</h3>
+            <a href="https://github.com/Juandavid08" target="_blank" rel="noopener noreferrer">
+              <button className="btn btn-sm">Ver mi trabajo</button>
+            </a>
+
           </motion.div>
           <motion.div
             variants={fadeIn('left', 0.4)}
@@ -56,7 +64,7 @@ const Services = () => {
                 const { name, description, link } = service;
                 return (
                   <div
-                    className='border-b border-white/20 h-[146px] mb-[40px] flex'
+                    className='border-b border-white/20 h-[160px] mb-[40px] flex'
                     key={index}
                   >
                     <div className='max-w-[476px]'>

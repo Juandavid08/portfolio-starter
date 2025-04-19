@@ -1,26 +1,21 @@
 import React from 'react';
-
-// import Logo from '../assets/logo.svg'
-import { Link } from 'react-scroll'
+import { Link } from 'react-scroll';
 
 const Header = () => {
   return (
-    <header className='py-8'>
-      <div className='container mx-auto'>
+    <header className='fixed top-0 left-0 w-full bg-[#1C1F26]/60 z-50 shadow-md'>
+      <div className='container mx-auto py-4'>
         <div className='logo flex justify-between items-center'>
-          <h1>JR<b className='punto'>.</b></h1>
-          {/* <a  href='#'>
-            <img src={Logo} alt='' />
-          </a> */}
+          <h1 className='text-white'>JR<b className='punto'>.</b></h1>
           <button className='btn btn-sm'>
-          <Link 
-            to='contact'
-            activeClass='active'
-            spy={true}
-            smooth={true} 
+            <Link 
+              to='contact'
+              activeClass='active'
+              spy={true}
+              smooth={true} 
             >
-            Contactame
-          </Link>
+              Contactame
+            </Link>
           </button>
         </div>
       </div>

@@ -7,7 +7,7 @@ import { fadeIn } from '../variants'
 
 const Banner = () => {
   return (
-    <section className='min-h-[85vh] lg:min-h-[78vh] flex items.center' id='home'>
+    <section className='min-h-screen flex items-center' id='home'>
       <div className='container mx-auto'>
         <div className='flex flex-col gap-y-8 lg:flex-row lg:items center'>
           <motion.div
@@ -36,7 +36,9 @@ const Banner = () => {
                   2000,
                   'Automatizador',
                   2000,
-                  'Gamer',
+                  'Cientifico de datos',
+                  2000,
+                  'Desarrollador de IA',
                   2000,
                 ]}
                   speed={50}
@@ -47,8 +49,7 @@ const Banner = () => {
 
               </div>
               <p className='mb-8 max-w-lg mx-auto lg:mx-0'>
-                Ingeniero de software egresado de la Universidad Cooperativa de Colombia. Me considero una persona organizada y proactiva, me gusta los desafíos y participar en proyectos de alto compromiso, amante a los videojuegos y al futbol.
-              </p>
+              Soy Ingeniero de software, científico de datos y desarrollador con inteligencia artificial. Me enfoco en crear soluciones escalables y eficientes, integrando tecnologías como React, Angular, PHP, Node.js, MongoDB, MySQL, Django, Python, TensorFlow, Keras, Flutter y servicios de AWS en mis proyectos. Mi trabajo incluye el desarrollo de aplicaciones y la implementación de IA y análisis de datos              </p>
             </div>
             <div className='flex max-w-max gap-x-6 items-center mb-12
               mx-auto lg:mx-0'>
@@ -80,7 +81,20 @@ const Banner = () => {
             whileInView={'show'}
             viewport={{ once: false, amount: 0.6 }}
             className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]'>
-            <img src={Image} alt='' className='opacity-70' />
+            <img
+              src={Image}
+              alt="Servicios"
+              className="opacity-80 rounded-2xl"
+              style={{
+                WebkitMaskImage: 'linear-gradient(black 50%, transparent)',
+                maskImage: 'linear-gradient(black 50%, transparent)',
+                WebkitMaskSize: '100% 95%',
+                maskSize: '100% 90%',
+                WebkitMaskRepeat: 'no-repeat',
+                maskRepeat: 'no-repeat',
+              }}
+            />
+
           </motion.div>
 
         </div>

@@ -18,17 +18,9 @@ const About = () => {
 
 
   return (
-    <section id='about' className='section' ref={ref}>
+    <section id='about' className="min-h-screen" ref={ref}>
       <div className='container mx-auto'>
-        <div className='flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen'>
-          <motion.div 
-          variants={fadeIn('right', 0.3)}
-          initial="hidden"
-          whileInView={"show"}
-          viewport={{once:false, amount: 0.3}}
-          className='flex-1 bg-about bg-contain bg-no-repeat h-[580px] mix-blend-soft-light bg-top'>
-
-          </motion.div>
+        <div className='flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-10 lg:gap-y-0 h-screen'>
           
           <motion.div 
           variants={fadeIn('left', 0.4)}
