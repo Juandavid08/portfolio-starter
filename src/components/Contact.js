@@ -11,25 +11,49 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     setLoading(true);
-
+  
     const nombreUsuario = form.current.nombre.value;
-
+    const correoUsuario = form.current.email.value; // Correo del usuario para la confirmación
+  
+    // Primero, enviar el correo a ti con la plantilla para ti
     emailjs
       .sendForm(
-        'service_34gaal3',
-        'template_0kw1mok',
+        'service_34gaal3',  // Tu ID del servicio
+        'template_0kw1mok',  // Tu plantilla para recibir el mensaje (mensaje a ti)
         form.current,
-        '4WkQcDkwLyRMHCkos'
+        '4WkQcDkwLyRMHCkos'  // Tu ID de usuario
       )
       .then(
         (result) => {
-          setLoading(false);
-          Swal.fire('¡Gracias!', `Tu mensaje fue enviado con éxito, ${nombreUsuario}.`, 'success');
-          form.current.reset();
+          // Ahora enviar un correo de confirmación al usuario con su propia plantilla
+          emailjs
+            .send(
+              'service_34gaal3',  // El mismo servicio
+              'template_z1in88y',  // La plantilla para la respuesta al cliente
+              {
+                nombre: nombreUsuario,  // Datos para personalizar el mensaje de confirmación
+                email: correoUsuario
+              },
+              '4WkQcDkwLyRMHCkos'  // Tu ID de usuario
+            )
+            .then(() => {
+              setLoading(false);
+              Swal.fire('¡Gracias!', `Tu mensaje fue enviado con éxito, ${nombreUsuario}.`, 'success');
+              form.current.reset();
+            })
+            .catch((error) => {
+              setLoading(false);
+              console.error('Error al enviar el correo de confirmación al usuario:', error);
+              Swal.fire({
+                icon: 'error',
+                title: 'Error',
+                html: `Ocurrió un error al enviar tu mensaje. Por favor, contacta a <strong>juandavid-661@hotmail.com</strong> para más ayuda.`,
+              });
+            });
         },
         (error) => {
           setLoading(false);
-          console.error(error);
+          console.error('Error al enviar el correo a ti:', error);
           Swal.fire({
             icon: 'error',
             title: 'Error',
@@ -38,6 +62,8 @@ const Contact = () => {
         }
       );
   };
+  
+  
 
   return (
     <section className='py-16 lg:section' id='contact'>
