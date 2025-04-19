@@ -2,24 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
+.logo {
+  display: flex;
+  font-size: 40px;
+  font-weight: 800;
+  color: #2F80ED; /* Azul profesional */
+  letter-spacing: 3px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.punto {
+  font-size: 90px;
+  color: #27AE60; /* Verde suave */
+}
+
 .btn {
   background: linear-gradient(
     92.23deg,
-    #ff56f6 21.43%,
-    #b936ee 50.63%,
-    #3bace2 100%,
-    #406aff 117.04%
+    #2F80ED 10%,
+    #27AE60 50%,
+    #56CCF2 90%
   );
-  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+  box-shadow: 0px 4px 80px rgba(47, 128, 237, 0.4);
 }
 
 .btn:hover {
   background: linear-gradient(
     92.23deg,
-    #406aff 21.43%,
-    #3bace2 50.63%,
-    #b936ee 100%,
-    #ff56f6 117.04%
+    #56CCF2 10%,
+    #2F80ED 50%,
+    #27AE60 90%
   );
 }
 
@@ -27,22 +40,25 @@
 .active {
   background: linear-gradient(
     92.23deg,
-    #406aff 21.43%,
-    #3bace2 50.63%,
-    #b936ee 100%,
-    #ff56f6 117.04%
+    #2F80ED 10%,
+    #27AE60 50%,
+    #56CCF2 90%
   );
 }
 
+/* Estilo para los íconos activos */
 .active {
-  color: #fff;
-  padding: 1rem;
-  border-radius: 100%;
+  color: #fff; /* Cambia el color del ícono cuando esté activo */
+  background-color: #2F80ED; /* Un color de fondo destacado */
+  border-radius: 50%; /* Forma circular */
+  box-shadow: 0px 4px 10px rgba(47, 128, 237, 0.5); /* Sombra para resaltar */
 }
+
 
 @layer base {
   body {
     @apply font-secondary text-lg leading-8 text-white;
+    background-color: #2D6375; /* Fondo gris oscuro profesional */
   }
   .h2 {
     @apply font-primary text-[32px] mb-6 tracking-[10%] uppercase;
@@ -63,7 +79,7 @@
     @apply text-base;
   }
   .text-gradient {
-    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
+    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#2F80ED] to-[#27AE60] font-bold font-primary hover:from-[#27AE60] hover:to-[#2F80ED];
   }
   .section {
     @apply py-8 lg:py-24 lg:h-screen flex items-center;
