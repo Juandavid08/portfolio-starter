@@ -49,7 +49,7 @@ const Banner = () => {
 
               </div>
               <p className='mb-8 max-w-lg mx-auto lg:mx-0'>
-              Soy Ingeniero de software, científico de datos y desarrollador con inteligencia artificial. Me enfoco en crear soluciones escalables y eficientes, integrando tecnologías como Python, Java, JavaScript, Node.js, MongoDB, MySQL, Django, React, Docker, Kubernetes, TensorFlow, Keras, Flutter y servicios de AWS en mis proyectos. Mi trabajo incluye el desarrollo de aplicaciones y la implementación de IA y análisis de datos              </p>
+              Soy Ingeniero de software, científico de datos y desarrollador con inteligencia artificial. Me enfoco en crear soluciones escalables y eficientes, integrando tecnologías como Python, Java, JavaScript, Node.js, MongoDB, MySQL, Django, React, Docker, Kubernetes, TensorFlow, Keras, Flutter y servicios de AWS en mis proyectos. Mi trabajo incluye el desarrollo de aplicaciones y la implementación de IA y análisis de datos </p>
             </div>
             <div className='flex max-w-max gap-x-6 items-center mb-12
               mx-auto lg:mx-0'>
