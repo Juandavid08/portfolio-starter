@@ -62,52 +62,24 @@ const About = () => {
               <div>
                 <div className='flex text-[50px] gap-x-6 max-w-max mx-auto
                   lg:mx-0'>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    <FaPython />
-                  </a>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    <FaReact />
-                  </a>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    <FaNode />
-                  </a>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    <DiJavascript1 />
-                  </a>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    <FaFileExcel />
-                  </a>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    <SiTypescript />
-                  </a>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    <TbBrandCSharp />
-                  </a>
+                  <span><FaPython /></span>
+                  <span><FaReact /></span>
+                  <span><FaNode /></span>
+                  <span><DiJavascript1 /></span>
+                  <span><FaFileExcel /></span>
+                  <span><SiTypescript /></span>
+                  <span><TbBrandCSharp /></span>
                 </div>
 
                 <div className='flex text-[50px] gap-x-6 mt-5 max-w-max mx-auto
                   '>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    <SiRubyonrails />
-                  </a>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    <FaPhp />
-                  </a>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    <DiDjango />
-                  </a>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    <SiMysql />
-                  </a>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    <SiTailwindcss />
-                  </a>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    <FaAws />
-                  </a>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    <BsGit />
-                  </a>
+                  <span><SiRubyonrails /></span>
+                  <span><FaPhp /></span>
+                  <span><DiDjango /></span>
+                  <span><SiMysql /></span>
+                  <span><SiTailwindcss /></span>
+                  <span><FaAws /></span>
+                  <span><BsGit /></span>
                 </div>
 
               </div>
