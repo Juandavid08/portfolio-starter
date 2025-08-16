@@ -49,7 +49,7 @@ const Banner = () => {
 
               </div>
               <p className='mb-8 max-w-lg mx-auto lg:mx-0'>
-              Soy Ingeniero de software, científico de datos y desarrollador con inteligencia artificial. Me enfoco en crear soluciones escalables y eficientes, integrando tecnologías como Python, Java, JavaScript, Node.js, MongoDB, MySQL, Django, React, Docker, Kubernetes, TensorFlow, Keras, Flutter y servicios de AWS en mis proyectos. Mi trabajo incluye el desarrollo de aplicaciones y la implementación de IA y análisis de datos </p>
+                Soy Ingeniero de software, científico de datos y desarrollador con inteligencia artificial. Me enfoco en crear soluciones escalables y eficientes, integrando tecnologías como Python, Java, JavaScript, Node.js, MongoDB, MySQL, Django, React, Docker, Kubernetes, TensorFlow, Keras, Flutter y servicios de AWS en mis proyectos. Mi trabajo incluye el desarrollo de aplicaciones y la implementación de IA y análisis de datos </p>
             </div>
             <div className='flex max-w-max gap-x-6 items-center mb-12
               mx-auto lg:mx-0'>
@@ -60,16 +60,16 @@ const Banner = () => {
             </div>
             <div className='flex text-[20px] gap-x-6 max-w-max mx-auto
               lg:mx-0'>
-              <a href='https://github.com/Juandavid08' target={'_blank'}>
+              <a href='https://github.com/Juandavid08' target="_blank" rel="noopener noreferrer">
                 <FaGithub />
               </a>
-              <a href='https://www.facebook.com/juan.renteriavalencia' target={'_blank'}>
+              <a href='https://www.facebook.com/juan.renteriavalencia' target="_blank" rel="noopener noreferrer">
                 <FaFacebookF />
               </a>
-              <a href='https://www.instagram.com/juan_renteriav/' target={'_blank'}>
+              <a href='https://www.instagram.com/juan_renteriav/' target="_blank" rel="noopener noreferrer">
                 <FaInstagram />
               </a>
-              <a href="https://wa.me/573116874555?text=Hola%20Juan,%20me%20interesa%20hablar%20contigo%20de%20trabajo" target={'_blank'}>
+              <a href="https://wa.me/573116874555?text=Hola%20Juan,%20me%20interesa%20hablar%20contigo%20de%20trabajo" target="_blank" rel="noopener noreferrer">
                 <FaWhatsapp />
               </a>
             </div>

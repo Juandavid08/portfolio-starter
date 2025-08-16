@@ -3,8 +3,8 @@ import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
-import { FaPython, FaReact, FaNode, FaHtml5, FaPhp, FaBootstrap, FaAws, FaFileExcel } from 'react-icons/fa'
-import { DiJavascript1, DiCss3, DiDjango } from 'react-icons/di'
+import { FaPython, FaReact, FaNode, FaPhp, FaAws, FaFileExcel } from 'react-icons/fa'
+import { DiJavascript1, DiDjango } from 'react-icons/di'
 import { SiMysql, SiTailwindcss, SiRubyonrails, SiTypescript } from 'react-icons/si'
 import { BsGit } from 'react-icons/bs'
 import { TbBrandCSharp } from 'react-icons/tb'
@@ -62,13 +62,13 @@ const About = () => {
               <div>
                 <div className='flex text-[50px] gap-x-6 max-w-max mx-auto
                   lg:mx-0'>
-                  <a href='https://github.com/Juandavid08' target={'_blank'}>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
                     <FaPython />
                   </a>
-                  <a href='https://www.facebook.com/juan.renteriavalencia' target={'_blank'}>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
                     <FaReact />
                   </a>
-                  <a href='https://www.instagram.com/juan_renteriav/' target={'_blank'}>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
                     <FaNode />
                   </a>
                   <a href="#" target="_blank" rel="noopener noreferrer">
